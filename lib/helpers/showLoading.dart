@@ -5,7 +5,7 @@ showLoading(){
   Get.defaultDialog(
     title: "Loading...",
     content: CircularProgressIndicator(),
-    barrierDismissible: false
+    barrierDismissible: true
   );
 }
 

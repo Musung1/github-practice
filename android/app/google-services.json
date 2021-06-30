@@ -1,33 +1,78 @@
 {
   "project_info": {
-    "project_number": "141625150617",
-    "project_id": "cadevo-59ab7",
-    "storage_bucket": "cadevo-59ab7.appspot.com"
+    "project_number": "87101484324",
+    "project_id": "fir-practice-d234b",
+    "storage_bucket": "fir-practice-d234b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141625150617:android:0232d3b56535a70d0b3c08",
+        "mobilesdk_app_id": "1:87101484324:android:1dce29c1be20eba92797b1",
         "android_client_info": {
-          "package_name": "com.santosenoque.cadevo"
+          "package_name": "com.example.untitled"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141625150617-lnm8m3ag9g7045timv23ssmqm1v03kp7.apps.googleusercontent.com",
+          "client_id": "87101484324-qcc3t9veli90sk66kkghv5nfg1ph03vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.untitled",
+            "certificate_hash": "81e0234fc05e9517588bbe1ee4b37d44b5a000b5"
+          }
+        },
+        {
+          "client_id": "87101484324-j4h0p9rhqfk4ipjles1uup9h06aia2og.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCePDl6DEDmQVU3swhQSmDZvEaqQwDSf6o"
+          "current_key": "AIzaSyAaPKJR3ojb3IYCWcL9YXgp081cHrQ-ZQY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "141625150617-lnm8m3ag9g7045timv23ssmqm1v03kp7.apps.googleusercontent.com",
+              "client_id": "87101484324-j4h0p9rhqfk4ipjles1uup9h06aia2og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87101484324:android:d106c7626ceffbe12797b1",
+        "android_client_info": {
+          "package_name": "com.santosenoque.cadevo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87101484324-up469i5p9l6ngua8smd8hu0scj8q8sq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.santosenoque.cadevo",
+            "certificate_hash": "81e0234fc05e9517588bbe1ee4b37d44b5a000b5"
+          }
+        },
+        {
+          "client_id": "87101484324-j4h0p9rhqfk4ipjles1uup9h06aia2og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaPKJR3ojb3IYCWcL9YXgp081cHrQ-ZQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87101484324-j4h0p9rhqfk4ipjles1uup9h06aia2og.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

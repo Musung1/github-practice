@@ -1,4 +1,4 @@
-import 'package:cadevo/helpers/showLoading.dart';
+ import 'package:cadevo/helpers/showLoading.dart';
 import 'package:cadevo/models/user.dart';
 import 'package:cadevo/screens/authentication/auth.dart';
 import 'package:cadevo/screens/home/home.dart';
@@ -18,7 +18,7 @@ class AuthController extends GetxController {
   Rx<UserModel> userModel = UserModel().obs;
 
   @override
-  void onReady() {
+  void onReady() { // 처음 인스탄스 생성되면 호출됨
     super.onReady();
     firebaseUser = Rx<User>(auth.currentUser);
     firebaseUser.bindStream(auth.userChanges());
@@ -47,6 +47,7 @@ class AuthController extends GetxController {
     } catch (e) {
       debugPrint(e.toString());
       Get.snackbar("Sign In Failed", "Try again");
+
     }
   }
 
