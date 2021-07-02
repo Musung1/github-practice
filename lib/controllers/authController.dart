@@ -19,7 +19,7 @@ class UserController extends GetxController {
   Rx<UserModel> userModel = UserModel().obs;
 
   @override
-  void onReady() {
+  void onReady() { // obs값 바뀌면 실행
     super.onReady();
     firebaseUser = Rx<User>(auth.currentUser);
     firebaseUser.bindStream(auth.userChanges());
