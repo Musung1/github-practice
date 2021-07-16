@@ -48,7 +48,7 @@ class HomeScreen extends StatelessWidget {
               ListTile(
                 leading: Icon(Icons.book),
                 title: CustomText(
-                  text: "Payments History",
+                  text: "Payment History",
                 ),
                 onTap: ()async {
                  paymentsController.getPaymentHistory();
